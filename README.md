@@ -1,8 +1,5 @@
 Symfony Propel Edition
 ========================
-![Build Status](https://travis-ci.org/symfony/symfony-demo.svg?branch=master)](https://travis-ci.org/symfony/symfony-demo) ~ Version 3.1.2 supported
-
-
 
 This is my configuration to use Symfony 3 with Propel ORM.
 
@@ -16,6 +13,11 @@ database_driver: mysql
 ``
 
 Or replace ``mysql`` with other sql server
+
+For your database schema, the file of propel is
+``
+/src/AppBundle/Resources/config/propel/schema.xml
+``
 
 Which differences ?
 --------------
